@@ -9,59 +9,73 @@
     <link rel="stylesheet" href="./style/index.css">
 </head>
 
-<body>
+<body class="grid-container">
     <header>
         <img id="logo" src="./assets/logo.png" alt="logo">
         <h1 id="mainh">ToDo Week</h1>
         <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="./about.html"> About Us</a></li>
-            </ul>
+            <a href="/">Home</a>
+            <a href="./about.html"> About Us</a>
         </nav>
     </header>
-    <main>
-        <table>
-            <tr>
-                <th colspan="2">Sunday</th>
-            </tr>
-            <tr>
-                <th>Tasks</th>
-                <th>Status</th>
-            </tr>
-            <tr>
-                <td>Task1</td>
-                <td>[ ]</td>
-            </tr>
-            <tr>
-                <td>task2</td>
-                <td>[ ]</td>
-            </tr>
-            <tr>
-                <td>task3</td>
-                <td>[ ]</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th colspan="2">Monday</th>
-            </tr>
-            <tr>
-                <th>Tasks</th>
-                <th>Status</th>
-            </tr>
-            <tr>
-                <td>Task1</td>
-                <td>[ ]</td>
-            </tr>
-            <tr>
-                <td>task2</td>
-                <td>[ ]</td>
-            </tr>
-            <tr>
-                <td>task3</td>
-                <td>[ ]</td>
-            </tr>
+    <main class="main">
+        <h2>Weekly ToDo list (don't forget to save changes) </h2>
+        <section class="tables1">
+            <table>
+                <tr>
+                    <th colspan="2">Sunday</th>
+                </tr>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Task1</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task2</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task3</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2">Monday</th>
+                </tr>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Task1</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task2</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task3</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+            </table>
+
             <table>
                 <tr>
                     <th colspan="2">Tuesday</th>
@@ -72,111 +86,145 @@
                 </tr>
                 <tr>
                     <td>Task1</td>
-                    <td>[ ]</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
                 </tr>
                 <tr>
                     <td>task2</td>
-                    <td>[ ]</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
                 </tr>
                 <tr>
                     <td>task3</td>
-                    <td>[ ]</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
                 </tr>
-                <table>
-                    <tr>
-                        <th colspan="2">Wensday</th>
-                    </tr>
-                    <tr>
-                        <th>Tasks</th>
-                        <th>Status</th>
-                    </tr>
-                    <tr>
-                        <td>Task1</td>
-                        <td>[ ]</td>
-                    </tr>
-                    <tr>
-                        <td>task2</td>
-                        <td>[ ]</td>
-                    </tr>
-                    <tr>
-                        <td>task3</td>
-                        <td>[ ]</td>
-                    </tr>
-                    <table>
-                        <tr>
-                            <th colspan="2">Thursday</th>
-                        </tr>
-                        <tr>
-                            <th>Tasks</th>
-                            <th>Status</th>
-                        </tr>
-                        <tr>
-                            <td>Task1</td>
-                            <td>[ ]</td>
-                        </tr>
-                        <tr>
-                            <td>task2</td>
-                            <td>[ ]</td>
-                        </tr>
-                        <tr>
-                            <td>task3</td>
-                            <td>[ ]</td>
-                        </tr>
-                        <table>
-                            <tr>
-                                <th colspan="2">Friday</th>
-                            </tr>
-                            <tr>
-                                <th>Tasks</th>
-                                <th>Status</th>
-                            </tr>
-                            <tr>
-                                <td>Task1</td>
-                                <td>[ ]</td>
-                            </tr>
-                            <tr>
-                                <td>task2</td>
-                                <td>[ ]</td>
-                            </tr>
-                            <tr>
-                                <td>task3</td>
-                                <td>[ ]</td>
-                            </tr>
-                            <table>
-                                <tr>
-                                    <th colspan="2">Saturday</th>
-                                </tr>
-                                <tr>
-                                    <th>Tasks</th>
-                                    <th>Status</th>
-                                </tr>
-                                <tr>
-                                    <td>Task1</td>
-                                    <td>[ ]</td>
-                                </tr>
-                                <tr>
-                                    <td>task2</td>
-                                    <td>[ ]</td>
-                                </tr>
-                                <tr>
-                                    <td>task3</td>
-                                    <td>[ ]</td>
-                                </tr>
-                            </table>
-                        </table>
-                    </table>
-                </table>
             </table>
-        </table>
+
+            <table>
+                <tr>
+                    <th colspan="2">Wednesday</th>
+                </tr>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Task1</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task2</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task3</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+            </table>
+        </section>
+        <section class="tables2">
+            <table>
+                <tr>
+                    <th colspan="2">Thursday</th>
+                </tr>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Task1</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task2</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task3</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <th colspan="2">Friday</th>
+                </tr>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Task1</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task2</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task3</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2">Saturday</th>
+                </tr>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Task1</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task2</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span></td>
+                </section>
+                </tr>
+                <tr>
+                    <td>task3</td>
+                    <section class = "checkboxes"></section>
+                    <td><input type="checkbox" class="checkbox"> <span class="done"></span> </td>
+                </section>
+                </tr>
+            </table>
+        </section>
         <input type="button" value="save" id="save">
     </main>
     <footer>
-        <p>&copy; Copyright 2022 by Javascript Class</p>
-        <ul>
-            <li><a>Number</a></li>
-            <li><a>Facebook</a></li>
-            <li><a>Instagram</a></li>
-        </ul>
+        <p class="copy">&copy; Copyright 2022 by Javascript Class</p>
+    <section class="contact-us">
+        <a>Number</a>
+        <a>Facebook</a>
+        <a>Instagram</a>
+    </section>
     </footer>
 </body>
 

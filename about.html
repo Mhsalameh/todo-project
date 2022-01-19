@@ -11,46 +11,52 @@
 
 <body>
 
-    <header>
-        <img id="logo" src="./assets/logo.png" alt="logo">
-        <h1 id="mainh">ToDo Week</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="./about.html"> About Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <img id="placeholder" src="./assets/placeholder.jpeg" alt="A PLaceholder">
-            <h2>About us</h2>
-            <p>My name is Mohammad and this is my first projet in HTML and CSS.</p>
-            <p>Project name is ToDo Week, which will eventually enable the user to check his daily task status for a
-                week.</p>
-        </section>
-        <section>
-            <h2>Feedback</h2>
-            <p>Please fill below form to provide a feedback message</p>
-            <form>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter Name">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Example@example.com">
-                <label for="message">Your Feedback</label>
-                <input type="text" id="message" name="message" placeholder="Your feed back here">
-                <input type="button" id="send" name="send" value="send">
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p id="cr">&copy; Copyright 2022 by Javascript Class</p>
-        <ul>
-            <li><a>Number</a></li>
-            <li><a>Facebook</a></li>
-            <li><a>Instagram</a></li>
-        </ul>
-    </footer>
-</body>
+    <body class="grid-container">
+        <header>
+            <img id="logo" src="./assets/logo.png" alt="logo">
+            <h1 id="mainh">ToDo Week</h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="./about.html"> About Us</a>
+            </nav>
+        </header>
+        <main>
+            <section class="about">
+                <img id="placeholder" src="./assets/download.png" alt="A PLaceholder">
+                <section class="about-us">
+                    <h2>Mohammad Salameh</h2>
+                    <p>My name is Mohammad and this is my first projet in HTML and CSS.</p>
+                    <p>Project name is ToDo Week, which will eventually enable the user to check his daily task status
+                        for a
+                        week.</p>
+                </section>
+            </section>
+            <section class="form">
+                <h2>Feedback</h2>
+                <p>Please fill below form to provide a feedback message</p>
+                <form>
+                    <section class="left-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Example@example.com">
+                    </section>
+                    <section class="right-form">
+                    <label for="message">Your Feedback</label>
+                    <input type="text" id="message" name="message" placeholder="Your feed back here">
+                    <input type="button" id="send" name="send" value="send">
+                    </section> 
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p class="copy">&copy; Copyright 2022 by Javascript Class</p>
+            <section class="contact-us">
+                <a>Number</a>
+                <a>Facebook</a>
+                <a>Instagram</a>
+            </section>
+        </footer>
+    </body>
 
 </html>
