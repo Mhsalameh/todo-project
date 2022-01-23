@@ -1,13 +1,20 @@
 "use strict";
 
 let userName;
-let userGender;
+let userGender="";
 let userAge;
 let skip;
 let genderValid;
 
 userName=prompt("Please enter your name");
-userGender=prompt("Please enter you gender\nMale/Female");
+while (userGender.toLowerCase()!="male" && userGender.toLowerCase()!="female"){
+    userGender=prompt("Please enter you gender\nMale/Female");
+    if (userGender==null){
+        userGender="";
+        break;
+    }
+}
+
 genderValid = (userGender.toLowerCase() === "male" || userGender.toLowerCase() === "female") ? true : false;
 userAge=prompt("How old are you?");
 (userAge <= 0) ? alert("Age isn't valid"): userAge=userAge;
