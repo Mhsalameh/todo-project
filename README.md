@@ -26,7 +26,7 @@ We can interact with the user now!
 A simple start, no loops required.
 just alerts, prompts and some conditional statements.
 
-Didn't take much time to do this task just as expected.
+Just getting familiar with using the functions and all of that following the single responsibility rule.
 
 ### Home page wireframe
 ![](./assets/Home.png)
